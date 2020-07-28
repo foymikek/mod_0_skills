@@ -1,0 +1,9 @@
+food = 'sushi'
+is_delicious = true
+best_food = 'sushi'
+num2 = 2
+num7 = 14
+quotient = num7 / num2
+songs = ["Kiss From A Rose", "Wicked Game", "My Heart Will Go On", "Sign Your Name"]
+songs.drop(1)
+food.length 
