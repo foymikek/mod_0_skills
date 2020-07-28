@@ -1,0 +1,18 @@
+5280_burger_bar_electric_fan
+
+Attributes:
+  is_plugged_in = true
+  fan_speed_setting = [1, 2, 3, 4]
+  fan_rpm = 5000
+  is_fun_guard_on = false
+  is_on = false
+  fan_angle = 90
+  is_swivle_on = false
+
+Methods:
+ .remove_plug (is_plugged_in = false)
+ .top_fan_speed (fan_speed_setting[-1], fan_rpm = 10000)
+ .assemble_fan_guard (is_fan_guard_on = true)
+ .power_on (is_plugged_in = true, is_on = true)
+ .increase_fan_angle (fan_angle = 100)
+ .rotate_fan (is_swivle_on = true)
