@@ -1,0 +1,22 @@
+mikes_study_room_tissues
+
+Attributes:
+  height = 11
+  length = 22
+  width = 12
+  is_open = false
+  tissue_count = 240
+  tissue_brand = “Kleenex”
+  tissue_ply_count = 3
+  is_tissue_ready = false
+  tissue_color = “white”
+  was_recyled = false
+
+Methods:
+  .volume (2904 = 11 * 22 * 12)
+  .remove_cover (is_open = true, is_tissue_ready = true)
+  .remove_tissue (tissue_count = 239)
+  .identify_tissue_brand (tissue_brand = “Kleenex”)
+  .identify_ply_count (tissue_ply_count = 3)
+  .blow_nose (tissue_color = "green", tissue_count = 238)
+  .recyle_tissue_box (was_recyled = true)
