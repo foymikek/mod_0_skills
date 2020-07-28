@@ -1,0 +1,18 @@
+ElectricFan
+
+Attributes:
+   is_plugged_in (boolean)
+   fan_speed_setting (array)
+   fan_rpm (integer)
+   is_fan_guard_on (boolean)
+   is_on (boolean)
+   fan_angle (integer)
+   is_swivle_on (boolean)
+
+  Methods:
+   .remove_plug (removes plug from wall socket, modifies is_plugged_in attribute)
+   .top_fan_speed (sets fan speed to the highest setting (last data point in array) and changes the fan speed, modifies fan_speed_setting and fan_rpm attributes)
+   .assemble_fan_guard (puts fan guard on to protect the fan blade, modifies is_fan_guard_on attribute)
+   .power_on (ensures power source and turns power on, modifies is_plugged_in and is_on attributes)
+   .increase_fan_angle (tilts fan head up increasing the fan head angle on the stand, modifies fan_angle attribute)
+   .rotate_fan (turns the fan on its swivle, modifies is_swivle_on attribute)
