@@ -1,0 +1,20 @@
+TissueBox
+
+Attributes:
+  height (integer)
+  length (integer)
+  width (integer)
+  is_open (boolean)
+  tissue_count (integer)
+  tissue_brand (string)
+  tissue_ply_count (integer)
+  is_tissue_ready (boolean)
+
+Methods:
+  .volume (multiplies height, length and width attributes)
+  .remove_cover (rips off the tissue box cover, exposing the tissues making them ready to use, modifies is_open and is_tissue_ready attributes)
+  .remove_tissue (removes one tissue from the box, modifies tissue_count attribute)
+  .identify_tissue_brand (identifies the brand of tissues, uses tissue_brand attribute)
+  .identify_ply_count (identifies how many layers the tissue paper has, uses tissue_ply_count attribute)
+  .blow_nose (uses a tissue to blow nose, modifies tissue_color attribute and tissue_count)
+  .recyle_tissue_box (recycles the tissue box, modifies was_recycled attribute)
